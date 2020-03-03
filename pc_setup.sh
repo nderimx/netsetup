@@ -7,7 +7,7 @@ print_usage() {
 }
 
 if [ $# -eq 0 ]; then
-	echo "No arguments supplied. First argument is your custom home path"
+	echo "No arguments supplied."
     print_usage
 	exit 1
 fi
